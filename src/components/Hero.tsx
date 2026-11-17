@@ -79,9 +79,9 @@ export default function Hero() {
             <motion.div
               className="flex flex-wrap gap-5"
               variants={itemVariants}
-            >
+            > 
               <motion.a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1ktXM2o9sqoVUXoj6mDpGGSuM4t_kV75P/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-4 bg-white text-black font-black rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center"

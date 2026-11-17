@@ -17,22 +17,23 @@ export default function Projects() {
   const projects: Project[] = [
     {
       id: 1,
+      title: "RAG-Sales CRM",
+      description: "AI-powered Sales CRM and organization admin portal I built as a full-stack project with features such as JWT authentication, role-based administration, semantic search, and AI-powered workflows.",
+      image: "/images/ragdash.png",
+      tech: ["Spring Boot", "React", "MySQL", "Docker","RAG"],
+      github: "https://github.com/Aghniv/ragcrm",
+      live: "https://ragcrm.vercel.app/login"
+    },
+    {
+      id: 2,
       title: "Hotel Management System",
       description: "A full-stack hotel management system with user authentication, room management, and automated gmail notifications.",
       image: "/images/pr1.png",
       tech: ["Spring Boot", "React", "MySQL", "Docker"],
       github: "https://github.com",
-      live: "https://example.com"
+      live: "https://nexus-ui-zeta.vercel.app/home"
     },
-    {
-      id: 2,
-      title: "Fitness Tracker Application",
-      description: "A full-stack activity tracking app enabling users to monitor progress and receive personalized recommendations.",
-      image: "/images/pr2.png",
-      tech: ["Spring Boot", "React", "MySQL", "Docker"],
-      github: "https://github.com",
-      live: "https://example.com"
-    },
+    
 
   ];
 
